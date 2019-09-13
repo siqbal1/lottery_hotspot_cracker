@@ -1,0 +1,3273 @@
+<!DOCTYPE html>
+<script src="https://static.www.calottery.com/build/js/plugins/bowser.min.js" type="text/javascript">
+</script>
+<!--[if lt IE 7 ]> <html class="ie6 ie ielt10 ielt9 ielt8 ielt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7 ie ielt10 ielt9 ielt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8 ie ielt10 ielt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9 ie ielt10 no-js" lang="en"> <![endif]-->
+<!--[if IE 10 ]>    <html class="ie10 ie no-js" lang="en"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html class="no-js" lang="en">
+ <!--<![endif]-->
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Hot Spot
+  </title>
+  <meta content="Official site for California Lottery" name="description"/>
+  <meta content="width=device-width" name="viewport"/>
+  <link href="/css/secondchance.css" rel="stylesheet"/>
+  <link href="/build/hotspot/hotspot.css" rel="stylesheet"/>
+  <meta content="Hot Spot, California Lottery HotSpot Bullseye" name="keywords"/>
+  <link href="/favicon.ico" rel="shortcut icon"/>
+  <link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+  <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" /> -->
+  <link href="https://static.www.calottery.com/css/jquery.loading-indicator.css" rel="stylesheet"/>
+  <!--
+      Bootstrap JavaScript
+      Modernizr bundled with RequireJS & the optional RequireJS plugins
+    -->
+  <script src="https://static.www.calottery.com/build/js/swfobject.js" type="text/javascript">
+  </script>
+  <script src="https://static.www.calottery.com/build/js/modernizr-require.js?1381886021" type="text/javascript">
+  </script>
+  <!-- inital require call for the global module, plus options to be used -->
+  <script type="text/javascript">
+   // Remove this once Ooyala fixes their code
+        // make it safe to use console.log always
+        (function (a) { function b() { } for (var c = "assert,count,debug,dir,dirxml,error,exception,group,groupCollapsed,groupEnd,info,log,markTimeline,profile,profileEnd,time,timeEnd,trace,warn".split(","), d; !!(d = c.pop()); ) { a[d] = a[d] || b; } })
+        (function () { try { console.log(); return window.console; } catch (a) { return (window.console = {}); } } ());
+  </script>
+  <script type="text/javascript">
+   require({
+            baseUrl: "https://static.www.calottery.com/build/js/",
+            urlArgs: "v=v46",
+            paths: {
+                "jquery": "lib/jquery",
+                "jqueryui": "lib/jquery-ui",
+                "jqueryqtip": "lib/jquery.qtip.min",
+                "order": "order_1.0.5"
+            },
+            priority: [
+                'jquery',
+                'jqueryui',
+                'jqueryqtip'
+            ]
+        });
+  </script>
+  <script>
+   var _prum = [['id', '573b5231abe53dc70431f22f'],
+             ['mark', 'firstbyte', (new Date()).getTime()]];
+(function() {
+    var s = document.getElementsByTagName('script')[0]
+      , p = document.createElement('script');
+    p.async = 'async';
+    p.src = '//rum-static.pingdom.net/prum.min.js';
+    s.parentNode.insertBefore(p, s);
+})();
+  </script>
+ </head>
+ <body class="page-draw-games-hot-spot">
+  <form action="/play/draw-games/hot-spot" id="frmMain" method="post" name="frmMain">
+   <div>
+    <input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="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"/>
+   </div>
+   <script src="/ScriptResource.axd?d=PhqF858b54yLs3FI8Y_U3W_CEPJ-YSmNNshgxRQBd4GSupLmWgr7ExKSQjsRyMn64NsjsxqAn9VksM2QXfjgYKQbfPWA4jCR3mI7zvTD1hB939OvRcFkhUpwxNGOXRMEbPOPcwyAjiFyL4uBLSdhOY4Dc_M1&amp;t=2e2045e2" type="text/javascript">
+   </script>
+   <div>
+    <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="F540AD8A"/>
+    <input id="__VIEWSTATEENCRYPTED" name="__VIEWSTATEENCRYPTED" type="hidden" value=""/>
+    <input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="B4YpD9w3Y1bbgZPNZkjV8SUJqvbzkUM3C1JexT7da/YbLwVSCN94kw+sZmjE/XPyjc/Di/nBC6PmEXgOOruHFkk5n1DiPvQrXrXh6bdq9EPgBAQGo0L8sHxXOJu8+P1ahCslOeEViwiSHbhllQKqYfTbSuQ="/>
+   </div>
+   <div class="security_notice ui-dialog-content ui-widget-content" style="display: none;" title="Notice to Users">
+    <input id="ctl11_hItemPath" name="ctl11$hItemPath" type="hidden" value="{A744713C-1DB5-4426-B902-6A914316E9BA}"/>
+    <p>
+     <strong>
+      Information Collection, Use and Access Notice
+     </strong>
+    </p>
+    <p>
+     We collect and use the information provided to us (on this form, via a web page, via a web application or by email) in order to ensure the integrity of our promotions and games and provide advice, information, services, and assistance. We are authorized to collect information for this purpose by section 8880 et seq. of the California Government Code. We recommend you do not provide any personal information not specifically requested.
+    </p>
+    <p>
+     When contacting us by email, we recommend that you only provide the personal information that you think we need to respond to your concern. If, however, you do not give us enough information, we may not be able to contact you or help you resolve your concern.
+    </p>
+    <p>
+     It is the policy of the California Lottery to share your personal information only as strictly necessary to provide services or assistance. This may include disclosing your personal information to Lottery affiliates and to other government agencies. We also could be required to disclose the personal information that you provide in the following circumstances:
+    </p>
+    <ul class="bullets">
+     <li>
+      In response to a Public Records Act request, as allowed by the Information Practices Act;
+     </li>
+     <li>
+      To another government agency as required by state or federal law;
+     </li>
+     <li>
+      In response to a court or administrative order, a subpoena, or a search warrant.
+     </li>
+    </ul>
+    <p>
+     You may review the records we maintain that contain your personal information, as permitted by the Information Practices Act. For questions about this notice, our
+     <a href="/privacy-policy" title="Privacy policy">
+      Privacy Policy
+     </a>
+     , or access to your records, contact the Lottery Privacy Coordinator at
+     <a href="mailto:privacy@calottery.com" title="Privacy email">
+      privacy@calottery.com
+     </a>
+     or write to: The California State Lottery - Attention: Privacy Coordinator. 700 Tenth Street, Sacramento, CA 95811.
+    </p>
+   </div>
+   <div class="hasnotification" id="dvNotification" style="display: none">
+    no
+   </div>
+   <div class="winner-notification-dialog ui-dialog-content ui-widget-content" style="display: none;" title="Winner Notification">
+    <h2>
+     !
+    </h2>
+    <p>
+    </p>
+    <table>
+     <thead>
+      <tr>
+       <th>
+       </th>
+       <th>
+       </th>
+       <th>
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+     </tbody>
+    </table>
+    <div>
+     <input id="objWinnerNotification_chkAcknowledge" name="objWinnerNotification$chkAcknowledge" type="checkbox"/>
+     <label for="objWinnerNotification_chkAcknowledge" id="objWinnerNotification_chkAcknowledgeLabel">
+     </label>
+    </div>
+    <div class="uppad">
+     <div class="ftop">
+      <div class="spacer">
+      </div>
+      <div class="error-message">
+      </div>
+     </div>
+     <div class="fleft">
+      <input id="objWinnerNotification_btnNotifications" name="objWinnerNotification$btnNotifications" type="submit" value="Get Email Updates"/>
+     </div>
+     <div class="fright">
+      <a class="modal-close-trigger" href="javascript:__doPostBack('objWinnerNotification$lnkClaimLink','')" id="objWinnerNotification_lnkClaimLink">
+       Close
+      </a>
+      <br/>
+     </div>
+    </div>
+   </div>
+   <div id="container">
+    <div class="wrapper">
+     <header>
+      <a href="/" id="logo-sunburst" style="background: url('https://static.www.calottery.com/~/media/HomePage/logo 175x84 with trademark.png') ">
+       CA Lottery Home
+      </a>
+      <p id="top-nav">
+       <!--<a class="button" href="http://www.californialottery.com/" target="_blank"><span><span>CaliforniaLottery.com</span></span></a> -->
+       <a href="/about-us">
+        <span>
+         About Us
+        </span>
+       </a>
+       <a href="/play">
+        <span>
+         Games
+        </span>
+       </a>
+       <a href="/retailer">
+        <span>
+         Retailers
+        </span>
+       </a>
+       <a href="http://www.californialottery.com" target="_blank">
+        <span>
+         Corporate Social Responsibility
+        </span>
+       </a>
+       <a href="http://www.calottery.com/play/draw-games/hot-spot?sc_lang=es" id="objHeader_aLanguage">
+        Español
+       </a>
+      </p>
+      <div id="search">
+       <label class="visuallyhidden" for="q">
+        Search
+       </label>
+       <input autocomplete="on" class="text placeholder" id="q" name="q" placeholder="Search" type="text" value=""/>
+       <button>
+        <span>
+         Search
+        </span>
+       </button>
+      </div>
+      <ul id="main-nav">
+       <li class="" data-hover_content="giving-back-V2" id="objHeader_liGivingBackV2">
+        <a href="/giving-back">
+         <span>
+          Giving Back
+         </span>
+        </a>
+       </li>
+       <li class="" data-hover_content="happenings">
+        <a href="/happenings">
+         <span>
+          HAPPENINGS
+         </span>
+        </a>
+       </li>
+       <li class="selected" data-hover_content="play">
+        <a href="/play">
+         <span>
+          PLAY
+         </span>
+        </a>
+       </li>
+       <li class="" data-hover_content="win">
+        <a href="/win">
+         <span>
+          WIN
+         </span>
+        </a>
+       </li>
+       <li class="" data-hover_content="lucky-retailers">
+        <a href="/lucky-retailers">
+         <span>
+          LUCKY RETAILERS
+         </span>
+        </a>
+       </li>
+       <li class="my-account" data-hover_content="my-account">
+        <p class="welcome">
+         Welcome Guest
+        </p>
+        <a href="https://www.calottery.com/my-account">
+         <span>
+          My Account
+         </span>
+        </a>
+        <p class="login">
+         <a href="https://www.calottery.com/sign-in?redir=http://www.calottery.com/my-account">
+          Sign In
+         </a>
+         |
+         <a href="http://www.calottery.com/register">
+          Join
+         </a>
+        </p>
+       </li>
+      </ul>
+      <!--breadcrumbs-->
+      <ul id="breadcrumbs">
+       <li>
+        <a href="http://www.calottery.com" id="objHeader_ctl06_Repeater1_ctl01_HyperLink1">
+         Home
+        </a>
+       </li>
+       <li>
+        <a href="/play" id="objHeader_ctl06_Repeater1_ctl02_HyperLink1">
+         Play
+        </a>
+       </li>
+       <li>
+        <a href="/play/draw-games" id="objHeader_ctl06_Repeater1_ctl03_HyperLink1">
+         Draw Games
+        </a>
+       </li>
+       <li>
+        <a id="objHeader_ctl06_Repeater1_ctl04_HyperLink1">
+        </a>
+        Hot Spot
+       </li>
+      </ul>
+      <section id="submenu">
+       <div id="play">
+        <h1>
+         <a href="/play/play-overview" id="objHeader_Header_Play_ctl00_HyperLink1">
+          <span>
+           Play Overview
+          </span>
+         </a>
+         |
+         <a href="/play/whats-my-game" id="objHeader_Header_Play_ctl01_HyperLink1">
+          <span>
+           What's My Game Today?
+          </span>
+         </a>
+        </h1>
+        <div class="row">
+         <div class="column grid-2">
+          <h2>
+           <a href="/play/draw-games" id="objHeader_Header_Play_ctl02_HyperLink1">
+            <span>
+             Draw Games
+            </span>
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/play/draw-games/powerball" id="objHeader_Header_Play_rptDrawGames_ctl00_lnkURL">
+             POWERBALL
+            </a>
+           </li>
+           <li>
+            <a href="/play/draw-games/mega-millions" id="objHeader_Header_Play_rptDrawGames_ctl01_lnkURL">
+             MEGA Millions
+            </a>
+           </li>
+           <li>
+            <a href="/play/draw-games/superlotto-plus" id="objHeader_Header_Play_rptDrawGames_ctl02_lnkURL">
+             SuperLotto Plus
+            </a>
+           </li>
+           <li>
+            <a href="/play/draw-games/fantasy-5" id="objHeader_Header_Play_rptDrawGames_ctl03_lnkURL">
+             Fantasy 5
+            </a>
+           </li>
+           <li>
+            <a id="objHeader_Header_Play_rptDrawGames_ctl04_lnkURL">
+             <a href="/play/draw-games/daily-3">
+              Daily 3
+             </a>
+             |
+             <a href="/play/draw-games/daily-4">
+              Daily 4
+             </a>
+            </a>
+           </li>
+           <li>
+            <a id="objHeader_Header_Play_rptDrawGames_ctl05_lnkURL">
+            </a>
+           </li>
+           <li>
+            <a href="/play/draw-games/daily-derby" id="objHeader_Header_Play_rptDrawGames_ctl06_lnkURL">
+             Daily Derby
+            </a>
+           </li>
+           <li>
+            <a href="/play/draw-games/hot-spot" id="objHeader_Header_Play_rptDrawGames_ctl07_lnkURL">
+             Hot Spot
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="column grid-2">
+          <h2>
+           <a href="/play/scratchers-games" id="objHeader_Header_Play_ctl03_HyperLink1">
+            <span>
+             Scratchers Games
+            </span>
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/play/scratchers-games/$1-scratchers">
+             $1 Games
+            </a>
+            |
+            <a href="/play/scratchers-games/$2-scratchers">
+             $2 Games
+            </a>
+           </li>
+           <li>
+            <a href="/play/scratchers-games/$3-scratchers">
+             $3 Games
+            </a>
+            |
+            <a href="/play/scratchers-games/$5-scratchers">
+             $5 Games
+            </a>
+           </li>
+           <li>
+            <a href="/play/scratchers-games/$10-scratchers">
+             $10 Games
+            </a>
+            |
+            <a href="/play/scratchers-games/$20-scratchers">
+             $20 Games
+            </a>
+           </li>
+           <li>
+            <a href="/play/scratchers-games/$30-scratchers">
+             $30 Games
+            </a>
+            <li>
+             <a href="/play/scratchers-games/end-of-game-info">
+              End of Game Info
+             </a>
+             <li>
+              <a href="/play/scratchers-games/top-prizes-remaining">
+               Top Prizes Remaining
+              </a>
+              <li>
+               <a href="/play/scratchers-games/faqs">
+                FAQs
+               </a>
+              </li>
+             </li>
+            </li>
+           </li>
+          </ul>
+         </div>
+         <div class="column grid-2">
+          <h2>
+           <a href="/play/second-chance" id="objHeader_Header_Play_AbsLinkField4_HyperLink1">
+            <span>
+             2ND CHANCE
+            </span>
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/play/second-chance/scratchers-second-chance" id="objHeader_Header_Play_AbsLinkField5_HyperLink1">
+             <span>
+              Scratchers 2nd Chance
+             </span>
+            </a>
+           </li>
+           <li>
+            <a href="/play/second-chance/fantasy-5-second-chance" id="objHeader_Header_Play_AbsLinkField14_HyperLink1">
+             <span>
+              Fantasy 5 - 2nd Chance
+             </span>
+            </a>
+           </li>
+           <div id="objHeader_Header_Play_showForSLP2C">
+            <li>
+             <a href="/play/second-chance/slp-second-chance" id="objHeader_Header_Play_AbsLinkField6_HyperLink1">
+              <span>
+               SuperLotto Plus 2nd Chance
+              </span>
+             </a>
+            </li>
+           </div>
+           <li>
+            <a href="/play/second-chance/draws-prizes" id="objHeader_Header_Play_AbsLinkField8_HyperLink1">
+             <span>
+              Draws &amp; Prizes
+             </span>
+            </a>
+           </li>
+           <li>
+            <a href="/play/second-chance/my-submissions" id="objHeader_Header_Play_AbsLinkField7_HyperLink1">
+             <span>
+              My Submissions
+             </span>
+            </a>
+           </li>
+           <li>
+            <a href="/play/second-chance/results-winners" id="objHeader_Header_Play_AbsLinkField9_HyperLink1">
+             <span>
+              Results &amp; Winners
+             </span>
+            </a>
+           </li>
+           <li>
+            <a id="objHeader_Header_Play_AbsLinkField10_HyperLink1">
+            </a>
+           </li>
+           <li>
+            <a href="/play/second-chance/claim-process" id="objHeader_Header_Play_AbsLinkField15_HyperLink1">
+             <span>
+              Claim Process
+             </span>
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="column last-column grid-2">
+          <h2>
+           More ways to play
+          </h2>
+          <ul>
+           <li>
+            <a href="/play/jackpot-captain" id="objHeader_Header_Play_AbsLinkField11_HyperLink1">
+             <span>
+              Jackpot Captain
+             </span>
+            </a>
+           </li>
+          </ul>
+          <h2>
+           <a href="/play/whats-my-game" id="objHeader_Header_Play_AbsLinkField12_HyperLink1">
+            <span>
+             Game Finder
+            </span>
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/play/whats-my-game" id="objHeader_Header_Play_AbsLinkField13_HyperLink1">
+             <span>
+              What's My Game Today?
+             </span>
+            </a>
+           </li>
+          </ul>
+          <!-- </div> -->
+         </div>
+        </div>
+        <!-- flyout promos -->
+        <div class="ways-to-play">
+         <h2>
+          Try these new ways to play... and win.
+         </h2>
+         <ul class="horizontal">
+          <li>
+           <a class="deferImage" href="/play/draw-games/hot-spot" id="objHeader_Header_Play_ctl04_Repeater1_ctl00_lnkURL1">
+            <span class="slug" data-alt="hot spot to go" data-height="81px" data-src="https://static.www.calottery.com/~/media/Happenings/promos/Hot-Spot-To-Go/HotSpot_ToGo_FlyoutCandybarModule_220x81_ENG_PWS_FNL.jpg" data-width="220px" id="objHeader_Header_Play_ctl04_Repeater1_ctl00_spnImageSlug">
+             hot spot to go
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/happenings/7s-scratchers-2nd-chance-promotion" id="objHeader_Header_Play_ctl04_Repeater1_ctl01_lnkURL1">
+            <span class="slug" data-alt="7s-2nd-chance-candybar-eng" data-height="81px" data-src="https://static.www.calottery.com/~/media/Happenings/promos/7s-2nd-chance/english-assets/Flyout_Candybar_Module_220x81.jpg" data-width="220px" id="objHeader_Header_Play_ctl04_Repeater1_ctl01_spnImageSlug">
+             7s-2nd-chance-candybar-eng
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/play/draw-games/mega-millions" id="objHeader_Header_Play_ctl04_Repeater1_ctl02_lnkURL1">
+            <span class="slug" data-alt="Play for a life changing win. Go to MEGA Millions. " data-height="81px" data-src="https://static.www.calottery.com/~/media/top-nav-images-and-promos/nav_promo_0010_MEGA-Millions.ashx" data-width="220px" id="objHeader_Header_Play_ctl04_Repeater1_ctl02_spnImageSlug">
+             Play for a life changing win. Go to MEGA Millions.
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div id="win">
+        <h1>
+         <a href="/win" id="objHeader_Header_Win1_AbsLinkField1_HyperLink1">
+          <span>
+           Win Overview
+          </span>
+         </a>
+        </h1>
+        <div class="row">
+         <div class="column grid-3">
+          <div class="heading">
+           <h2>
+            Are You A Winner?
+           </h2>
+          </div>
+          <ul>
+           <li>
+            <a href="/win/winning-numbers" id="objHeader_Header_Win1_rptAreYouAWinner_ctl00_lnkURL">
+             Winning Numbers
+            </a>
+           </li>
+          </ul>
+          <h2>
+           I've Won! Now What?
+          </h2>
+          <ul>
+           <li>
+            <a href="/win/claiming-prizes" id="objHeader_Header_Win1_rptIHaveWon_ctl00_lnkURL">
+             Claiming Prizes
+            </a>
+           </li>
+           <li>
+            <a href="/about-us/district-offices" id="objHeader_Header_Win1_rptIHaveWon_ctl01_lnkURL">
+             District Offices
+            </a>
+           </li>
+           <li>
+            <a href="/win/winners-handbook" id="objHeader_Header_Win1_rptIHaveWon_ctl02_lnkURL">
+             Winner's Handbook
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="column grid-6 last-column">
+          <div class="heading">
+           <h2>
+            <a href="/win/winner%20stories" id="objHeader_Header_Win1_ctl00_AbsLinkField1_HyperLink1">
+             <span>
+              Winner Stories
+             </span>
+            </a>
+           </h2>
+           <p class="see-all">
+            <a href="/win/winner%20stories" id="objHeader_Header_Win1_ctl00_AbsLinkField2_HyperLink1">
+             <span>
+              See all »
+             </span>
+            </a>
+           </p>
+          </div>
+          <ul>
+           <li class="media">
+            <a class="img thumb deferImage" href="/win/winner stories/fred-alcaraz" id="objHeader_Header_Win1_ctl00_Repeater1_ctl00_lnkURL1">
+             <span class="slug" data-alt="" data-height="42px" data-src="https://static.www.calottery.com/~/media/Win/Winners-Stories/Corp-Comm-Winner-Photos/Fred Alcaraz 200.jpg" data-width="44px" id="objHeader_Header_Win1_ctl00_Repeater1_ctl00_spnImageSlug">
+             </span>
+            </a>
+            <div class="bd">
+             <p>
+              <a href="/win/winner stories/fred-alcaraz">
+               <strong>
+                Lucky Lottery Players in the Southland Strike it Big
+               </strong>
+              </a>
+              <br/>
+              Lucky Lottery Players in the Southland Strike it Big
+             </p>
+            </div>
+           </li>
+           <li class="media">
+            <a class="img thumb deferImage" href="/win/winner stories/emilio-montoya" id="objHeader_Header_Win1_ctl00_Repeater1_ctl01_lnkURL1">
+             <span class="slug" data-alt="" data-height="42px" data-src="https://static.www.calottery.com/~/media/Win/Winners-Stories/winners-stories-lg-sm-images/Emilio  Montoya 200.jpg" data-width="44px" id="objHeader_Header_Win1_ctl00_Repeater1_ctl01_spnImageSlug">
+             </span>
+            </a>
+            <div class="bd">
+             <p>
+              <a href="/win/winner stories/emilio-montoya">
+               <strong>
+                Lottery Pool Claims $4.9 Million Powerball® Ticket Sold in Chico!
+               </strong>
+              </a>
+              <br/>
+              Lottery Pool Claims $4.9 Million Powerball® Ticket Sold in Chico!
+             </p>
+            </div>
+           </li>
+           <li class="media">
+            <a class="img thumb deferImage" href="/win/winner stories/migual-calderon" id="objHeader_Header_Win1_ctl00_Repeater1_ctl02_lnkURL1">
+             <span class="slug" data-alt="" data-height="42px" data-src="https://static.www.calottery.com/~/media/Win/Winners-Stories/Corp-Comm-Winner-Photos/Miguel Calderon 200.jpg" data-width="44px" id="objHeader_Header_Win1_ctl00_Repeater1_ctl02_spnImageSlug">
+             </span>
+            </a>
+            <div class="bd">
+             <p>
+              <a href="/win/winner stories/migual-calderon">
+               <strong>
+                Man Blessed With $2 Million Lottery Win in Monterey County
+               </strong>
+              </a>
+              <br/>
+              Man Blessed With $2 Million Lottery Win in Monterey County
+             </p>
+            </div>
+           </li>
+           <li class="media">
+            <a class="img thumb deferImage" href="/win/winner stories/kendra-skwarczynski" id="objHeader_Header_Win1_ctl00_Repeater1_ctl03_lnkURL1">
+             <span class="slug" data-alt="" data-height="42px" data-src="https://static.www.calottery.com/~/media/Win/Winners-Stories/winners-stories-lg-sm-images/Kendra and Craig Skwarczynski 200.jpg" data-width="44px" id="objHeader_Header_Win1_ctl00_Repeater1_ctl03_spnImageSlug">
+             </span>
+            </a>
+            <div class="bd">
+             <p>
+              <a href="/win/winner stories/kendra-skwarczynski">
+               <strong>
+                $5 Million Lottery Win in Orange County!
+               </strong>
+              </a>
+              <br/>
+              $5 Million Lottery Win in Orange County!
+             </p>
+            </div>
+           </li>
+          </ul>
+         </div>
+        </div>
+        <!-- flyout promos -->
+        <div class="ways-to-play">
+         <h2>
+          Get that winning feeling.
+         </h2>
+         <ul class="horizontal">
+          <li>
+           <a class="deferImage" href="/happenings/7s-scratchers-2nd-chance-promotion" id="objHeader_Header_Win1_ctl01_Repeater1_ctl00_lnkURL1">
+            <span class="slug" data-alt="7s-2nd-chance-candybar-eng" data-height="81px" data-src="https://static.www.calottery.com/~/media/Happenings/promos/7s-2nd-chance/english-assets/Flyout_Candybar_Module_220x81.jpg" data-width="220px" id="objHeader_Header_Win1_ctl01_Repeater1_ctl00_spnImageSlug">
+             7s-2nd-chance-candybar-eng
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/play/draw-games/hot-spot" id="objHeader_Header_Win1_ctl01_Repeater1_ctl01_lnkURL1">
+            <span class="slug" data-alt="hot spot to go" data-height="81px" data-src="https://static.www.calottery.com/~/media/Happenings/promos/Hot-Spot-To-Go/HotSpot_ToGo_FlyoutCandybarModule_220x81_ENG_PWS_FNL.jpg" data-width="220px" id="objHeader_Header_Win1_ctl01_Repeater1_ctl01_spnImageSlug">
+             hot spot to go
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/play/draw-games/mega-millions" id="objHeader_Header_Win1_ctl01_Repeater1_ctl02_lnkURL1">
+            <span class="slug" data-alt="Play for a life changing win. Go to MEGA Millions. " data-height="81px" data-src="https://static.www.calottery.com/~/media/top-nav-images-and-promos/nav_promo_0010_MEGA-Millions.ashx" data-width="220px" id="objHeader_Header_Win1_ctl01_Repeater1_ctl02_spnImageSlug">
+             Play for a life changing win. Go to MEGA Millions.
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div id="happenings">
+        <h1>
+         <a href="/happenings" id="objHeader_Header_Happenings1_AbsLinkField5_HyperLink1">
+          <span>
+           Happenings Overview »
+          </span>
+         </a>
+        </h1>
+        <div class="row">
+         <div class="column grid-6">
+          <div class="heading">
+           <h2>
+            <a id="objHeader_Header_Happenings1_AbsLinkField1_HyperLink1">
+            </a>
+           </h2>
+           <p class="see-all">
+            <a id="objHeader_Header_Happenings1_AbsLinkField2_HyperLink1">
+            </a>
+           </p>
+          </div>
+          <ul>
+          </ul>
+         </div>
+         <div class="column last-column grid-3">
+          <div class="heading">
+           <h2>
+            <a href="/happenings/events" id="objHeader_Header_Happenings1_AbsLinkField3_HyperLink1">
+             <span>
+              Events
+             </span>
+            </a>
+           </h2>
+           <p class="see-all">
+            <a href="/happenings/events" id="objHeader_Header_Happenings1_AbsLinkField4_HyperLink1">
+             <span>
+              See all »
+             </span>
+            </a>
+           </p>
+          </div>
+          <ul>
+           <li>
+            <a href="/happenings/events/Quick Stop Market and Wash - San Diego">
+             Quick Stop Market and Wash Event - San Diego »
+            </a>
+           </li>
+           <li>
+            <a href="/happenings/events/gage-liquor">
+             Gage Liquor Event - Los Angeles »
+            </a>
+           </li>
+           <li>
+            <a href="/happenings/events/la-county-fair">
+             Los Angeles County Fair  »
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+        <!-- flyout promos -->
+        <div class="ways-to-play">
+         <h2>
+          See what happens when you play.
+         </h2>
+         <ul class="horizontal">
+          <li>
+           <a class="deferImage" href="/play/draw-games/mega-millions" id="objHeader_Header_Happenings1_ctl00_Repeater1_ctl00_lnkURL1">
+            <span class="slug" data-alt="Play for a life changing win. Go to MEGA Millions. " data-height="81px" data-src="https://static.www.calottery.com/~/media/top-nav-images-and-promos/nav_promo_0010_MEGA-Millions.ashx" data-width="220px" id="objHeader_Header_Happenings1_ctl00_Repeater1_ctl00_spnImageSlug">
+             Play for a life changing win. Go to MEGA Millions.
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/happenings/mobile-app" id="objHeader_Header_Happenings1_ctl00_Repeater1_ctl01_lnkURL1">
+            <span class="slug" data-alt="check-a-ticket" data-height="81px" data-src="https://static.www.calottery.com/~/media/mobile/Check-a-ticket/Flyout_Candybar_Module_220x81.png" data-width="220px" id="objHeader_Header_Happenings1_ctl00_Repeater1_ctl01_spnImageSlug">
+             check-a-ticket
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/happenings/7s-scratchers-2nd-chance-promotion" id="objHeader_Header_Happenings1_ctl00_Repeater1_ctl02_lnkURL1">
+            <span class="slug" data-alt="7s-2nd-chance-candybar-eng" data-height="81px" data-src="https://static.www.calottery.com/~/media/Happenings/promos/7s-2nd-chance/english-assets/Flyout_Candybar_Module_220x81.jpg" data-width="220px" id="objHeader_Header_Happenings1_ctl00_Repeater1_ctl02_spnImageSlug">
+             7s-2nd-chance-candybar-eng
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div id="giving-back">
+        <h1>
+         <a id="objHeader_Header_GivingBack1_AbsLinkField1_HyperLink1">
+          <span>
+           Giving Back Overview
+          </span>
+         </a>
+        </h1>
+        <div class="row">
+         <div class="column grid-3">
+          <div class="heading">
+           <h2>
+            <a href="/sitecore/content/Button%20for%20where%20money%20goes/obsolete-page-how-much-money" id="objHeader_Header_GivingBack1_AbsLinkField2_HyperLink1">
+             <span>
+              Where The Money Goes
+             </span>
+            </a>
+           </h2>
+           <p class="see-all">
+            <a href="/sitecore/content/Button%20for%20where%20money%20goes/obsolete-page-how-much-money" id="objHeader_Header_GivingBack1_AbsLinkField3_HyperLink1">
+             <span>
+              See all »
+             </span>
+            </a>
+           </p>
+          </div>
+          <ul>
+           <li>
+            <a id="objHeader_Header_GivingBack1_rptWhereTheMoneyGoes_ctl00_lnkURL">
+             Home
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="column grid-3">
+          <div class="heading">
+           <h2>
+            <a id="objHeader_Header_GivingBack1_AbsLinkField4_HyperLink1">
+             <span>
+              Making A Difference
+             </span>
+            </a>
+           </h2>
+           <p class="see-all">
+            <a id="objHeader_Header_GivingBack1_AbsLinkField5_HyperLink1">
+             <span>
+              See all »
+             </span>
+            </a>
+           </p>
+          </div>
+          <ul>
+          </ul>
+         </div>
+         <div class="column last-column grid-3">
+          <div class="heading">
+           <h2>
+            <a id="objHeader_Header_GivingBack1_AbsLinkField6_HyperLink1">
+             <span>
+              Partners In Education
+             </span>
+            </a>
+           </h2>
+           <p class="see-all">
+            <a id="objHeader_Header_GivingBack1_AbsLinkField7_HyperLink1">
+             <span>
+              See all »
+             </span>
+            </a>
+           </p>
+          </div>
+          <p>
+           We've teamed up with partners to create opportunities for students and educators.
+           <br/>
+           <a id="objHeader_Header_GivingBack1_AbsLinkField9_HyperLink1">
+           </a>
+          </p>
+         </div>
+        </div>
+        <!-- flyout promos -->
+        <div class="ways-to-play">
+         <h2>
+          When you play California isn't the only winner.
+         </h2>
+         <ul class="horizontal">
+          <li>
+           <a class="deferImage" id="objHeader_Header_GivingBack1_Header_Promo1_Repeater1_ctl00_lnkURL1">
+            <span class="slug" data-alt="Corporate social responsibility images" data-height="81px" data-src="https://static.www.calottery.com/~/media/Giving-Back/csr-candybar-modules/CA-Lot-web-modules-01-v2.jpg" data-width="220px" id="objHeader_Header_GivingBack1_Header_Promo1_Repeater1_ctl00_spnImageSlug">
+             Corporate social responsibility images
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="http://www.californialottery.com/Contribution%20to%20Education/Where%20the%20Money%20Goes" id="objHeader_Header_GivingBack1_Header_Promo1_Repeater1_ctl01_lnkURL1">
+            <span class="slug" data-alt="Corporate social responsibility images" data-height="81px" data-src="https://static.www.calottery.com/~/media/Giving-Back/csr-candybar-modules/CA-Lot-web-modules-02-v2.jpg" data-width="220px" id="objHeader_Header_GivingBack1_Header_Promo1_Repeater1_ctl01_spnImageSlug">
+             Corporate social responsibility images
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/happenings/lottery-tv/funding-education-videos" id="objHeader_Header_GivingBack1_Header_Promo1_Repeater1_ctl02_lnkURL1">
+            <span class="slug" data-alt="Corporate social responsibility images" data-height="81px" data-src="https://static.www.calottery.com/~/media/Giving-Back/csr-candybar-modules/CA-Lot-web-modules-04-v2.jpg" data-width="220px" id="objHeader_Header_GivingBack1_Header_Promo1_Repeater1_ctl02_spnImageSlug">
+             Corporate social responsibility images
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div id="giving-back-V2">
+        <h1>
+         <a href="/giving-back" id="objHeader_Header_GivingBackV2_AbsLinkField1_HyperLink1">
+          <span>
+           Giving Back Overview
+          </span>
+         </a>
+        </h1>
+        <div class="row">
+         <div class="column grid-3">
+          <div class="heading">
+           <h2>
+            <a href="/giving-back/education" id="objHeader_Header_GivingBackV2_AbsLinkField2_HyperLink1">
+             <span>
+              EDUCATION
+             </span>
+            </a>
+           </h2>
+          </div>
+          <ul>
+           <li>
+            <a href="/giving-back/education/mission" id="objHeader_Header_GivingBackV2_rptEducationFeaturedPages_ctl00_lnkURL">
+             Our Mission
+            </a>
+           </li>
+           <li>
+            <a href="/giving-back/education/lottery-funds-at-work" id="objHeader_Header_GivingBackV2_rptEducationFeaturedPages_ctl01_lnkURL">
+             Lottery Funds at Work
+            </a>
+           </li>
+           <li>
+            <a href="/giving-back/education/education-resources" id="objHeader_Header_GivingBackV2_rptEducationFeaturedPages_ctl02_lnkURL">
+             Education Resources
+            </a>
+           </li>
+           <li>
+            <a href="/giving-back/education/star-students" id="objHeader_Header_GivingBackV2_rptEducationFeaturedPages_ctl03_lnkURL">
+             Star Students
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="column grid-6 last-column">
+          <div class="heading">
+           <h2>
+            <a href="/giving-back/education/education-videos" id="objHeader_Header_GivingBackV2_AbsLinkField3_HyperLink1">
+             <span>
+              Education TV
+             </span>
+            </a>
+           </h2>
+           <p class="see-all">
+            <a href="/happenings/lottery-tv/funding-education-videos" id="objHeader_Header_GivingBackV2_AbsLinkField4_HyperLink1">
+             <span>
+              See all »
+             </span>
+            </a>
+           </p>
+          </div>
+          <ul>
+           <li class="media">
+            <a class="img thumb deferImage" href="/Happenings/Lottery-Tv/funding-education-videos?v=jackson-elementary-school" id="objHeader_Header_GivingBackV2_rptLotteryTV_ctl00_lnkURL1" title="Click on it to view this Video">
+             <span class="slug" data-alt="Jackson Elementary" data-height="42px" data-src="https://static.www.calottery.com/~/media/Videos/Funding-education-videos/Jackson Elementary.jpg?h=42&amp;mh=42&amp;mw=44&amp;w=44" data-width="44px" id="objHeader_Header_GivingBackV2_rptLotteryTV_ctl00_spnImageSlug">
+              Jackson Elementary
+             </span>
+            </a>
+            <div class="bd">
+             <p>
+              <a href="/Happenings/Lottery-Tv/funding-education-videos?v=jackson-elementary-school" id="objHeader_Header_GivingBackV2_rptLotteryTV_ctl00_lnkURL2" title="Click on it to view this Video">
+               Jackson Elementary School (El Dorado Hills, El Dorado County)
+              </a>
+              <br/>
+              Duration: 3:04
+             </p>
+            </div>
+           </li>
+           <li class="media">
+            <a class="img thumb deferImage" href="/Happenings/Lottery-Tv/funding-education-videos?v=cathedral-city-high-school-2016" id="objHeader_Header_GivingBackV2_rptLotteryTV_ctl01_lnkURL1" title="Click on it to view this Video">
+             <span class="slug" data-alt="cathedral-city-high-school-2016" data-height="42px" data-src="https://static.www.calottery.com/~/media/Videos/Funding-education-videos/cathedral-city-high-school.PNG?h=42&amp;mh=42&amp;mw=44&amp;w=44" data-width="44px" id="objHeader_Header_GivingBackV2_rptLotteryTV_ctl01_spnImageSlug">
+              cathedral-city-high-school-2016
+             </span>
+            </a>
+            <div class="bd">
+             <p>
+              <a href="/Happenings/Lottery-Tv/funding-education-videos?v=cathedral-city-high-school-2016" id="objHeader_Header_GivingBackV2_rptLotteryTV_ctl01_lnkURL2" title="Click on it to view this Video">
+               Cathedral City High School (Cathedral City, Riverside County)
+              </a>
+              <br/>
+              Duration: 2:54
+             </p>
+            </div>
+           </li>
+           <li class="media">
+            <a class="img thumb deferImage" href="/Happenings/Lottery-Tv/funding-education-videos?v=woodville-elementary-school" id="objHeader_Header_GivingBackV2_rptLotteryTV_ctl02_lnkURL1" title="Click on it to view this Video">
+             <span class="slug" data-alt="Woodville Elementary School" data-height="42px" data-src="https://static.www.calottery.com/~/media/Videos/Funding-education-videos/woodville elementary.JPG?h=42&amp;mh=42&amp;mw=44&amp;w=44" data-width="44px" id="objHeader_Header_GivingBackV2_rptLotteryTV_ctl02_spnImageSlug">
+              Woodville Elementary School
+             </span>
+            </a>
+            <div class="bd">
+             <p>
+              <a href="/Happenings/Lottery-Tv/funding-education-videos?v=woodville-elementary-school" id="objHeader_Header_GivingBackV2_rptLotteryTV_ctl02_lnkURL2" title="Click on it to view this Video">
+               Woodville Elementary School (Porterville, Tulare County)
+              </a>
+              <br/>
+              Duration: 2:58
+             </p>
+            </div>
+           </li>
+           <li class="media">
+            <a class="img thumb deferImage" href="/Happenings/Lottery-Tv/funding-education-videos?v=san-diego-city-college" id="objHeader_Header_GivingBackV2_rptLotteryTV_ctl03_lnkURL1" title="Click on it to view this Video">
+             <span class="slug" data-alt="SanDiego City College" data-height="42px" data-src="https://static.www.calottery.com/~/media/Videos/Funding-education-videos/SD cosmotology.JPG?h=42&amp;mh=42&amp;mw=44&amp;w=44" data-width="44px" id="objHeader_Header_GivingBackV2_rptLotteryTV_ctl03_spnImageSlug">
+              SanDiego City College
+             </span>
+            </a>
+            <div class="bd">
+             <p>
+              <a href="/Happenings/Lottery-Tv/funding-education-videos?v=san-diego-city-college" id="objHeader_Header_GivingBackV2_rptLotteryTV_ctl03_lnkURL2" title="Click on it to view this Video">
+               San Diego City College (San Diego, S.D. County)
+              </a>
+              <br/>
+              Duration: 3:25
+             </p>
+            </div>
+           </li>
+          </ul>
+         </div>
+        </div>
+        <!-- flyout promos -->
+        <div class="ways-to-play">
+         <h2>
+          Proud to support CA schools.
+         </h2>
+         <ul class="horizontal">
+          <li>
+           <a class="deferImage" href="/giving-back/education/lottery-funds-at-work" id="objHeader_Header_GivingBackV2_ctl00_Repeater1_ctl00_lnkURL1">
+            <span class="slug" data-alt="Lottery Funds at Work" data-height="82px" data-src="https://static.www.calottery.com/~/media/Giving-Back/csr-candybar-modules/lfaw-candybar.png" data-width="222px" id="objHeader_Header_GivingBackV2_ctl00_Repeater1_ctl00_spnImageSlug">
+             Lottery Funds at Work
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/giving-back/education/teacher-stories" id="objHeader_Header_GivingBackV2_ctl00_Repeater1_ctl01_lnkURL1">
+            <span class="slug" data-alt="Teacher Stories" data-height="82px" data-src="https://static.www.calottery.com/~/media/Giving-Back/csr-candybar-modules/teacher-stories-candybar.png" data-width="222px" id="objHeader_Header_GivingBackV2_ctl00_Repeater1_ctl01_spnImageSlug">
+             Teacher Stories
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/giving-back/education/where-money-goes" id="objHeader_Header_GivingBackV2_ctl00_Repeater1_ctl02_lnkURL1">
+            <span class="slug" data-alt="Where the money goes" data-height="82px" data-src="https://static.www.calottery.com/~/media/Giving-Back/csr-candybar-modules/where-it-goes-candybar.png" data-width="222px" id="objHeader_Header_GivingBackV2_ctl00_Repeater1_ctl02_spnImageSlug">
+             Where the money goes
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div id="lucky-retailers">
+        <h1>
+         <a href="/lucky-retailers" id="objHeader_Header_LuckyRetailers1_AbsLinkField1_HyperLink1">
+          <span>
+           Lucky Retailers Overview
+          </span>
+         </a>
+        </h1>
+        <div class="row">
+         <div class="column grid-3">
+          <h2>
+           <a href="/lucky-retailers" id="objHeader_Header_LuckyRetailers1_AbsLinkField7_HyperLink1">
+            <span>
+             LUCKY RETAILERS
+            </span>
+           </a>
+          </h2>
+          <p>
+           Easily search for Lottery retailers that have paid out large amounts of prizes to players.
+          </p>
+          <p>
+           <a href="/lucky-retailers" id="objHeader_Header_LuckyRetailers1_AbsLinkField6_HyperLink1">
+            <span>
+             Find a Lucky Retailer near you »
+            </span>
+           </a>
+          </p>
+         </div>
+         <div class="column grid-3">
+          <h2>
+           <a href="/lucky-retailers" id="objHeader_Header_LuckyRetailers1_AbsLinkField2_HyperLink1">
+            <span>
+             WHERE TO PLAY
+            </span>
+           </a>
+          </h2>
+          <div class="clearfix">
+           <div class="fleft">
+            <img alt="California Lottery" id="objHeader_Header_LuckyRetailers1_AbsLinkField5_Image1" src="https://static.www.calottery.com/~/media/top-nav-images-and-promos/sun-map-marker.ashx" style="height:73px;width:64px;border-width:0px;"/>
+           </div>
+           <p>
+            There are more than 23,000 Lottery retail locations across California.
+            <br/>
+            <br/>
+            Find a Lottery retailer near you.
+           </p>
+          </div>
+          <p>
+           <a href="/lucky-retailers" id="objHeader_Header_LuckyRetailers1_AbsLinkField4_HyperLink1">
+            <span>
+             Search »
+            </span>
+           </a>
+          </p>
+         </div>
+         <div class="column last-column grid-3">
+          <h2>
+           <a href="/lucky-retailers/more-ways-to-buy" id="objHeader_Header_LuckyRetailers1_scMoreWaysToPlayHeader_HyperLink1">
+            <span>
+             MORE WAYS TO BUY
+            </span>
+           </a>
+          </h2>
+          <p>
+           From Scratchers games vending machines to draw games terminals, learn about more ways to purchase Lottery tickets.
+          </p>
+          <p>
+           <a href="/lucky-retailers/more-ways-to-buy" id="objHeader_Header_LuckyRetailers1_scMoreWaysToPlayLink_HyperLink1">
+            <span>
+             See more ways to buy »
+            </span>
+           </a>
+          </p>
+         </div>
+        </div>
+        <!-- flyout promos -->
+        <div class="ways-to-play">
+         <h2>
+          Easily search for Lottery retailers that have paid out large amounts of prizes to players.
+         </h2>
+         <ul class="horizontal">
+          <li>
+           <a class="deferImage" href="/play/draw-games/hot-spot" id="objHeader_Header_LuckyRetailers1_Header_Promo1_Repeater1_ctl00_lnkURL1">
+            <span class="slug" data-alt="hot spot to go" data-height="81px" data-src="https://static.www.calottery.com/~/media/Happenings/promos/Hot-Spot-To-Go/HotSpot_ToGo_FlyoutCandybarModule_220x81_ENG_PWS_FNL.jpg" data-width="220px" id="objHeader_Header_LuckyRetailers1_Header_Promo1_Repeater1_ctl00_spnImageSlug">
+             hot spot to go
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/play/second-chance/slp-second-chance" id="objHeader_Header_LuckyRetailers1_Header_Promo1_Repeater1_ctl01_lnkURL1">
+            <span class="slug" data-alt="slp" data-height="81px" data-src="https://static.www.calottery.com/~/media/Second Chance/SLP-2nd-Chance-launch/Flyout-Candybar-Module_220x81.jpg" data-width="220px" id="objHeader_Header_LuckyRetailers1_Header_Promo1_Repeater1_ctl01_spnImageSlug">
+             slp
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/happenings/7s-scratchers-2nd-chance-promotion" id="objHeader_Header_LuckyRetailers1_Header_Promo1_Repeater1_ctl02_lnkURL1">
+            <span class="slug" data-alt="7s-2nd-chance-candybar-eng" data-height="81px" data-src="https://static.www.calottery.com/~/media/Happenings/promos/7s-2nd-chance/english-assets/Flyout_Candybar_Module_220x81.jpg" data-width="220px" id="objHeader_Header_LuckyRetailers1_Header_Promo1_Repeater1_ctl02_spnImageSlug">
+             7s-2nd-chance-candybar-eng
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div id="my-account">
+        <!-- signed out state -->
+        <h1>
+         My Account
+        </h1>
+        <div class="row clearfix" style="">
+         <div class="column grid-4">
+          <p>
+           Hello Guest, already have an account?
+           <a href="https://www.calottery.com/sign-in?redir=http://www.calottery.com/my-account">
+            Sign In
+           </a>
+          </p>
+          <h2>
+           Don't have an account?
+          </h2>
+          <p class="no-margin">
+           No problem. Sign up to get full access to:
+          </p>
+          <ul class="bullet">
+           <li>
+            2nd Chance draws
+           </li>
+           <li>
+            Jackpot Captain tools
+           </li>
+           <li>
+            Exclusive promotions and more
+           </li>
+          </ul>
+          <a class="button" href="http://www.calottery.com/register">
+           <span>
+            <span>
+             Join Now
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="column last-column grid-5">
+          <p align="center">
+           <a href="/404?item=web%3a%7b3250916C-D4E8-4624-911D-FF394FC9D1F1%7d%40en">
+           </a>
+           <a href="/play/jackpot-captain/promotions">
+           </a>
+           <a href="/404?item=web%3a%7b706BF5A7-A074-4DCC-99CC-C0BB54B37576%7d%40en">
+           </a>
+           <a href="/play/jackpot-captain/promotions">
+           </a>
+           <a href="/play/jackpot-captain/promotions">
+           </a>
+           <a href="/happenings/7s-scratchers-2nd-chance-promotion">
+            <img alt="7s-2nd-chance-my-account-flyout-eng" height="187" src="https://static.www.calottery.com/~/media/Happenings/promos/7s-2nd-chance/english-assets/My_Account_Flyout_340x187.jpg?w=340&amp;h=187&amp;as=1" width="340"/>
+           </a>
+           <a href="/404?item=web%3a%7b81DBD19A-502F-48BA-9FB5-6925418CD7C9%7d%40en">
+           </a>
+           <a href="/404?item=web%3a%7b81DBD19A-502F-48BA-9FB5-6925418CD7C9%7d%40en">
+           </a>
+           <a href="/play/jackpot-captain/promotions">
+           </a>
+           <a href="/play/jackpot-captain/promotions">
+           </a>
+           <a href="/404?item=web%3a%7b706BF5A7-A074-4DCC-99CC-C0BB54B37576%7d%40en">
+           </a>
+           <a href="/play/draw-games/superlotto-plus">
+           </a>
+          </p>
+         </div>
+        </div>
+        <!-- flyout promos -->
+        <div class="ways-to-play">
+         <h2>
+          Members get to play more!
+         </h2>
+         <ul class="horizontal">
+          <li>
+           <a class="deferImage" href="/play/second-chance/fantasy-5-second-chance" id="objHeader_Header_My_Account_Header_Promo4_Repeater1_ctl00_lnkURL1">
+            <span class="slug" data-alt="Fantasy 5 2nd Chance promotion" data-height="81px" data-src="https://static.www.calottery.com/~/media/Happenings/promos/fantasy-5-2nd-chance/Flyout-Candybar-Module_220x81.png" data-width="220px" id="objHeader_Header_My_Account_Header_Promo4_Repeater1_ctl00_spnImageSlug">
+             Fantasy 5 2nd Chance promotion
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/play/draw-games/hot-spot" id="objHeader_Header_My_Account_Header_Promo4_Repeater1_ctl01_lnkURL1">
+            <span class="slug" data-alt="hot spot to go" data-height="81px" data-src="https://static.www.calottery.com/~/media/Happenings/promos/Hot-Spot-To-Go/HotSpot_ToGo_FlyoutCandybarModule_220x81_ENG_PWS_FNL.jpg" data-width="220px" id="objHeader_Header_My_Account_Header_Promo4_Repeater1_ctl01_spnImageSlug">
+             hot spot to go
+            </span>
+           </a>
+          </li>
+          <li>
+           <a class="deferImage" href="/play/second-chance/slp-second-chance" id="objHeader_Header_My_Account_Header_Promo4_Repeater1_ctl02_lnkURL1">
+            <span class="slug" data-alt="slp" data-height="81px" data-src="https://static.www.calottery.com/~/media/Second Chance/SLP-2nd-Chance-launch/Flyout-Candybar-Module_220x81.jpg" data-width="220px" id="objHeader_Header_My_Account_Header_Promo4_Repeater1_ctl02_spnImageSlug">
+             slp
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </section>
+     </header>
+     <script type="text/javascript">
+      var winningNumbersErrorMessage = "There was a problem loading the page!";
+     </script>
+     <noscript>
+      <div style="text-align:center;color:red;margin-top:-20px;padding-bottom:10px">
+       <b>
+        Sorry, your browser does not have JavaScript enabled!
+       </b>
+       <br/>
+       The California Lottery wants you to have the very best possible experience at calottery.com.Please enable Javascript or use a browser that supports it.
+      </div>
+     </noscript>
+     <div class="" id="main">
+      <div class="winning_numbers_tab" hidden="False" id="winning-numbers" style="display:none;">
+       <p>
+        <a href="#" onclick="_gaq.push(['_trackPageview', '/winning-numbers']);">
+         Winning Numbers
+        </a>
+       </p>
+      </div>
+      <!--
+
+COLUMNS-LEFT-AND-CONTENT
+
+-->
+      <!--
+
+LEFT COLUMN
+
+-->
+      <div id="left-column">
+       <!--<ul id="sub-nav"><li  class=""><a href="/play/play-overview" >Play Overview</a></li><li  class="open"><a href="/play/draw-games" >Draw Games</a><ul><li  class=""><a href="/play/draw-games/powerball" >POWERBALL</a></li><li  class=""><a href="/play/draw-games/mega-millions" >MEGA Millions</a></li><li  class=""><a href="/play/draw-games/superlotto-plus" >SuperLotto Plus</a></li><li  class=""><a href="/play/draw-games/fantasy-5" >Fantasy 5</a></li><li  class=""><a href="/play/draw-games/daily-4" >Daily 4</a></li><li  class=""><a href="/play/draw-games/daily-3" >Daily 3</a></li><li  class=""><a href="/play/draw-games/daily-derby" >Daily Derby</a></li><li  class="first open selected last"><a href="/play/draw-games/hot-spot" >Hot Spot</a><ul><li  class=""><a href="/play/draw-games/hot-spot/how-to-play" >How To Play</a></li><li  class="last"><a href="/play/draw-games/hot-spot/faqs" >FAQs</a></li></ul></li></ul></li><li  class=""><a href="/play/scratchers-games" >Scratchers Games</a></li><li  class=""><a href="/play/jackpot-captain" >Jackpot Captain</a></li><li  class=""><a href="/play/second-chance" >2nd Chance</a></li><li  class="last"><a href="/play/whats-my-game" >What's My Game Today?</a></li></ul>-->
+       <ul id="sub-nav">
+        <li class="">
+         <a href="/play/play-overview">
+          Play Overview
+         </a>
+        </li>
+        <li class="open">
+         <a href="/play/draw-games">
+          Draw Games
+         </a>
+         <ul>
+          <li class="">
+           <a href="/play/draw-games/powerball">
+            POWERBALL
+           </a>
+          </li>
+          <li class="">
+           <a href="/play/draw-games/mega-millions">
+            MEGA Millions
+           </a>
+          </li>
+          <li class="">
+           <a href="/play/draw-games/superlotto-plus">
+            SuperLotto Plus
+           </a>
+          </li>
+          <li class="">
+           <a href="/play/draw-games/fantasy-5">
+            Fantasy 5
+           </a>
+          </li>
+          <li class="">
+           <a href="/play/draw-games/daily-4">
+            Daily 4
+           </a>
+          </li>
+          <li class="">
+           <a href="/play/draw-games/daily-3">
+            Daily 3
+           </a>
+          </li>
+          <li class="">
+           <a href="/play/draw-games/daily-derby">
+            Daily Derby
+           </a>
+          </li>
+          <li class="first open selected last">
+           <a href="/play/draw-games/hot-spot">
+            Hot Spot
+           </a>
+           <ul>
+            <li class="">
+             <a href="/play/draw-games/hot-spot/how-to-play">
+              How To Play
+             </a>
+            </li>
+            <li class="last">
+             <a href="/play/draw-games/hot-spot/faqs">
+              FAQs
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </li>
+        <li class="">
+         <a href="/play/scratchers-games">
+          Scratchers Games
+         </a>
+        </li>
+        <li class="">
+         <a href="/play/jackpot-captain">
+          Jackpot Captain
+         </a>
+        </li>
+        <li class="">
+         <a href="/play/second-chance">
+          2nd Chance
+         </a>
+        </li>
+        <li class="last">
+         <a href="/play/whats-my-game">
+          What's My Game Today?
+         </a>
+        </li>
+       </ul>
+       <div class="no-pad">
+        <h3>
+         Now Take Your Results to Go!
+        </h3>
+        <p>
+         Now get Hot Spot® results anytime, anywhere with the calottery® App.
+        </p>
+        <p>
+         <a href="/happenings/mobile-app">
+          Download it Today! »
+         </a>
+        </p>
+        <div class="decorate-img">
+         <img alt="Hot Spot to Go" height="140" src="https://static.www.calottery.com/~/media/Happenings/promos/Hot-Spot-To-Go/HotSpot_ToGo_LeftModule_200x128_ENG_PWS_FNL.jpg" width="220"/>
+        </div>
+       </div>
+       <div class="round-no-color">
+        <div class="next-draw-top">
+         <h3>
+          POWERBALL Draw Closes In:
+         </h3>
+         <ul>
+          <li class="day">
+           <div>
+            2
+           </div>
+           Days
+          </li>
+          <li class="hours">
+           <div>
+            21
+           </div>
+           Hours
+          </li>
+          <li class="minutes">
+           <div>
+            46
+           </div>
+           Minutes
+          </li>
+         </ul>
+        </div>
+        <div class="next-draw-bottom clearfix">
+         <p>
+          Draws take place every Wednesday and Saturday after
+          <br/>
+          draw entry closes at 7:00 p.m.
+         </p>
+         <img alt="powerball" class="float-right" height="64" src="https://static.www.calottery.com/~/media/Play/draw_games/Powerball/powerball_ad_module.png" width="134"/>
+         <p>
+          <a href="/lucky-retailers" title="Find a retailer">
+           Find a retailer »
+          </a>
+         </p>
+        </div>
+       </div>
+       <div class="round-no-color">
+        <div class="next-draw-top">
+         <h3>
+          MEGA Millions Draw Closes In:
+         </h3>
+         <ul>
+          <li class="day">
+           <div>
+            1
+           </div>
+           Days
+          </li>
+          <li class="hours">
+           <div>
+            22
+           </div>
+           Hours
+          </li>
+          <li class="minutes">
+           <div>
+            31
+           </div>
+           Minutes
+          </li>
+         </ul>
+        </div>
+        <div class="next-draw-bottom clearfix">
+         <p>
+          Draws take place every Tuesday and Friday after
+          <br/>
+          draw entry closes at 7:45 p.m.
+         </p>
+         <img alt="MEGA Millions" class="float-right" height="42" src="https://static.www.calottery.com/~/media/module-graphics/countdown-mega-millions.png" width="85"/>
+         <p>
+          <a href="/lucky-retailers" title="Find the closest retailer">
+           Find the closest retailer »
+          </a>
+         </p>
+        </div>
+       </div>
+       <div class="round-no-color">
+        <div class="next-draw-top">
+         <h3>
+          SuperLotto Plus Draw Closes In:
+         </h3>
+         <ul>
+          <li class="day">
+           <div>
+            2
+           </div>
+           Days
+          </li>
+          <li class="hours">
+           <div>
+            22
+           </div>
+           Hours
+          </li>
+          <li class="minutes">
+           <div>
+            31
+           </div>
+           Minutes
+          </li>
+         </ul>
+        </div>
+        <div class="next-draw-bottom clearfix">
+         <p>
+          Draws take place every Wednesday and Saturday after
+          <br/>
+          draw entry closes at 7:45 p.m.
+         </p>
+         <img alt="slp" class="float-right" height="56" src="https://static.www.calottery.com/~/media/module-graphics/superlotto-plus-countdown.png" width="88"/>
+         <p>
+          <a href="/lucky-retailers" title="Find the closest retailer">
+           Find the closest retailer »
+          </a>
+         </p>
+        </div>
+       </div>
+      </div>
+      <!--
+
+CONTENT COLUMN
+
+-->
+      <div id="main-column">
+       <div class="hotspot-container" id="objBody_content_0_pagecontent_0_pnlHotSpot" style="background-image:url(https://static.www.calottery.com/~/media/Play/draw_games/Hot-Spot/hotspot-otg-background.png);background-repeat:no-repeat">
+        <div class="hotspot-header">
+         <img id="objBody_content_0_pagecontent_0_imgHotSpotLogo" src="https://static.www.calottery.com/~/media/Play/draw_games/Hot-Spot/hotspot-otg-logo-refresh.png" style="border-width:0px;"/>
+        </div>
+        <div class="hotspot-details">
+         <h3>
+          Current Draw Number:
+         </h3>
+         <h3 class="hotspot-callout-text" id="hotspot-current-draw-number">
+         </h3>
+         <div class="current-draw-container animate" id="current-draw-container">
+          <div class="hotspot-spinner">
+           <h3>
+            Next draw results loading
+           </h3>
+           <div class="spot1">
+           </div>
+           <div class="spot2">
+           </div>
+           <div class="spot3">
+           </div>
+          </div>
+          <div class="hotspot-not-available" style="display:none;">
+           <h3>
+            Sorry, we are unable to display results at this time.
+            <br/>
+            Please try again later.
+           </h3>
+          </div>
+          <ul class="hotspot-draw-display spots" id="current-draw">
+          </ul>
+         </div>
+         <div class="hotspot-details-datetime">
+          <p>
+           Draw Date:
+           <span id="hotspot-current-draw-date">
+           </span>
+          </p>
+          <p>
+           Draw Time:
+           <span id="hotspot-current-draw-time">
+           </span>
+          </p>
+         </div>
+         <div style="clear: both;">
+          <a class="hotspot-btn hotspot-btn-next" href="/play/draw-games/hot-spot/draw-results" id="objBody_content_0_pagecontent_0_lnkSearch">
+           Search Past Results
+          </a>
+         </div>
+         <div style="clear: both;">
+          <a class="hotspot-btn hotspot-btn-fullscreen" href="/play/draw-games/hot-spot/full-screen?sc_lang=en" id="objBody_content_0_pagecontent_0_lnkFullScreen" target="_blank">
+           Expanded View
+          </a>
+         </div>
+        </div>
+        <div id="hotspot-promo">
+        </div>
+        <div class="hotspot-payouts">
+         <h2>
+          Check out the Hot Spot® and Bulls-eye™ payouts!
+         </h2>
+         <p>
+          <p>
+           The amounts below are the
+           <span id="payoutsPopup" style="color:cornflowerblue;">
+            payouts
+           </span>
+           you could win every time you play!
+          </p>
+         </p>
+         <div id="payouts-tooltip">
+          <h3>
+           Payouts
+          </h3>
+          <p>
+           Bulls-eye prizes include both the Hot Spot and Bulls-eye Typical Prize Amounts.  Players must play Hot Spot to play Bulls-eye.
+          </p>
+          <p>
+           Hot Spot prize payouts come in two different forms: Typical Prize Pools (TPPs) and Typical Prize Amounts (TPAs). TPPs* are shared equally among all winners, if there are multiple winners, of that prize. All other payouts are TPAs that are awarded to each winner to the extent supported by available prize funds.
+           <a href="~/link.aspx?_id=48C540E203B94366BE67FDCAD5DE2922&amp;_z=z">
+            For further explanation see the FAQ's
+           </a>
+           .
+          </p>
+          <p>
+           *TPPs are shared equally by total number of winners on the 8 of 8-spot, 9 of 9-spot and 10 of 10-spot plays.
+          </p>
+         </div>
+         <div class="hotspot-payouts-spot-sets">
+          <ul>
+           <li class="">
+            10 Spot
+           </li>
+           <li class="">
+            9 Spot
+           </li>
+           <li class="">
+            8 Spot
+           </li>
+           <li class="">
+            7 Spot
+           </li>
+           <li class="">
+            6 Spot
+           </li>
+           <li class="active">
+            5 Spot
+           </li>
+           <li class="">
+            4 Spot
+           </li>
+           <li class="">
+            3 Spot
+           </li>
+           <li class="">
+            2 Spot
+           </li>
+           <li class="">
+            1 Spot
+           </li>
+          </ul>
+         </div>
+         <div class="hotspot-payouts-spot-payouts">
+          <table class="draw_games hotspot">
+           <thead>
+            <tr>
+             <th>
+              Matching
+             </th>
+             <th>
+              Hot Spot Only
+             </th>
+             <th>
+              Hot Spot &amp; Bulls-eye
+             </th>
+             <th class="hotspot-callout-text">
+             </th>
+            </tr>
+           </thead>
+          </table>
+          <table class="draw_games hotspot" id="1SpotPayouts">
+           <tbody class="light-border">
+            <tr class="blue even">
+             <td>
+              0 of 10
+             </td>
+             <td>
+              $3.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl00_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $3.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl00_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              1 of 10
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl01_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $4.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl01_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              2 of 10
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl02_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl02_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              3 of 10
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl03_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl03_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              4 of 10
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl04_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl04_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              5 of 10
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl05_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $7.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl05_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              6 of 10
+             </td>
+             <td>
+              $15.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl06_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $50.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl06_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              7 of 10
+             </td>
+             <td>
+              $40.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl07_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $140.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl07_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              8 of 10
+             </td>
+             <td>
+              $575.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl08_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $1,325.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl08_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              9 of 10
+             </td>
+             <td>
+              $5,000.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl09_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $15,000.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl09_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              10 of 10
+             </td>
+             <td>
+              $100,000.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl10_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $300,000.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl00_rptPayoutSetDetail_ctl10_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+           </tbody>
+           <tfoot>
+            <tr>
+             <td colspan="4" style="text-align: left;">
+              Overall odds for 10 Spot 1 in 9.1, Bulls-eye 1 in 8
+              <br/>
+              <br/>
+              In reference to the 8 Spot, 9 Spot and 10 Spot tabs above, for the 8 of 8-spot, 9 of 9-spot and 10 of 10-spot plays the prize amounts are shared equally by the total number of winners. See "payouts" link above for full details.
+             </td>
+            </tr>
+           </tfoot>
+          </table>
+          <table class="draw_games hotspot" id="2SpotPayouts">
+           <tbody class="light-border">
+            <tr class="blue even">
+             <td>
+              0 of 9
+             </td>
+             <td>
+              $1.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl00_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $1.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl00_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              1 of 9
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl01_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $4.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl01_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              2 of 9
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl02_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl02_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              3 of 9
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl03_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl03_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              4 of 9
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl04_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $5.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl04_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              5 of 9
+             </td>
+             <td>
+              $5.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl05_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $15.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl05_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              6 of 9
+             </td>
+             <td>
+              $25.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl06_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $75.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl06_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              7 of 9
+             </td>
+             <td>
+              $125.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl07_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $400.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl07_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              8 of 9
+             </td>
+             <td>
+              $2,750.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl08_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $5,750.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl08_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              9 of 9
+             </td>
+             <td>
+              $30,000.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl09_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $65,000.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl01_rptPayoutSetDetail_ctl09_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+           </tbody>
+           <tfoot>
+            <tr>
+             <td colspan="4" style="text-align: left;">
+              Overall odds for 9 Spot 1 in 9.7, Bulls-eye 1 in 8.9
+              <br/>
+              <br/>
+              In reference to the 8 Spot, 9 Spot and 10 Spot tabs above, for the 8 of 8-spot, 9 of 9-spot and 10 of 10-spot plays the prize amounts are shared equally by the total number of winners. See "payouts" link above for full details.
+             </td>
+            </tr>
+           </tfoot>
+          </table>
+          <table class="draw_games hotspot" id="3SpotPayouts">
+           <tbody class="light-border">
+            <tr class="blue even">
+             <td>
+              0 of 8
+             </td>
+             <td>
+              $1.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl00_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $1.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl00_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              1 of 8
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl01_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $4.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl01_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              2 of 8
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl02_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl02_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              3 of 8
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl03_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl03_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              4 of 8
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl04_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $5.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl04_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              5 of 8
+             </td>
+             <td>
+              $10.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl05_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $45.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl05_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              6 of 8
+             </td>
+             <td>
+              $75.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl06_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $175.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl06_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              7 of 8
+             </td>
+             <td>
+              $575.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl07_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $1,250.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl07_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              8 of 8
+             </td>
+             <td>
+              $10,000.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl08_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $28,500.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl02_rptPayoutSetDetail_ctl08_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+           </tbody>
+           <tfoot>
+            <tr>
+             <td colspan="4" style="text-align: left;">
+              Overall odds for 8 Spot 1 in 9.2, Bulls-eye 1 in 10
+              <br/>
+              <br/>
+              In reference to the 8 Spot, 9 Spot and 10 Spot tabs above, for the 8 of 8-spot, 9 of 9-spot and 10 of 10-spot plays the prize amounts are shared equally by the total number of winners. See "payouts" link above for full details.
+             </td>
+            </tr>
+           </tfoot>
+          </table>
+          <table class="draw_games hotspot" id="4SpotPayouts">
+           <tbody class="light-border">
+            <tr class="blue even">
+             <td>
+              1 of 7
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl00_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $4.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl00_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              2 of 7
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl01_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl01_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              3 of 7
+             </td>
+             <td>
+              $1.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl02_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $3.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl02_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              4 of 7
+             </td>
+             <td>
+              $3.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl03_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $18.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl03_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              5 of 7
+             </td>
+             <td>
+              $10.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl04_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $60.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl04_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              6 of 7
+             </td>
+             <td>
+              $150.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl05_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $500.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl05_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              7 of 7
+             </td>
+             <td>
+              $2,000.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl06_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $8,000.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl03_rptPayoutSetDetail_ctl06_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+           </tbody>
+           <tfoot>
+            <tr>
+             <td colspan="4" style="text-align: left;">
+              Overall odds for 7 Spot 1 in 4.2, Bulls-eye 1 in 11.4
+              <br/>
+              <br/>
+              In reference to the 8 Spot, 9 Spot and 10 Spot tabs above, for the 8 of 8-spot, 9 of 9-spot and 10 of 10-spot plays the prize amounts are shared equally by the total number of winners. See "payouts" link above for full details.
+             </td>
+            </tr>
+           </tfoot>
+          </table>
+          <table class="draw_games hotspot" id="5SpotPayouts">
+           <tbody class="light-border">
+            <tr class="blue even">
+             <td>
+              1 of 6
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl04_rptPayoutSetDetail_ctl00_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $4.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl04_rptPayoutSetDetail_ctl00_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              2 of 6
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl04_rptPayoutSetDetail_ctl01_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl04_rptPayoutSetDetail_ctl01_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              3 of 6
+             </td>
+             <td>
+              $1.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl04_rptPayoutSetDetail_ctl02_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $6.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl04_rptPayoutSetDetail_ctl02_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              4 of 6
+             </td>
+             <td>
+              $5.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl04_rptPayoutSetDetail_ctl03_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $35.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl04_rptPayoutSetDetail_ctl03_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              5 of 6
+             </td>
+             <td>
+              $60.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl04_rptPayoutSetDetail_ctl04_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $210.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl04_rptPayoutSetDetail_ctl04_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              6 of 6
+             </td>
+             <td>
+              $900.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl04_rptPayoutSetDetail_ctl05_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $1,900.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl04_rptPayoutSetDetail_ctl05_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+           </tbody>
+           <tfoot>
+            <tr>
+             <td colspan="4" style="text-align: left;">
+              Overall odds for 6 Spot 1 in 6.2, Bulls-eye 1 in 13.3
+              <br/>
+              <br/>
+              In reference to the 8 Spot, 9 Spot and 10 Spot tabs above, for the 8 of 8-spot, 9 of 9-spot and 10 of 10-spot plays the prize amounts are shared equally by the total number of winners. See "payouts" link above for full details.
+             </td>
+            </tr>
+           </tfoot>
+          </table>
+          <table class="draw_games hotspot active" id="6SpotPayouts">
+           <tbody class="light-border">
+            <tr class="blue even">
+             <td>
+              1 of 5
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl05_rptPayoutSetDetail_ctl00_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $3.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl05_rptPayoutSetDetail_ctl00_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              2 of 5
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl05_rptPayoutSetDetail_ctl01_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $6.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl05_rptPayoutSetDetail_ctl01_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              3 of 5
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl05_rptPayoutSetDetail_ctl02_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $14.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl05_rptPayoutSetDetail_ctl02_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              4 of 5
+             </td>
+             <td>
+              $16.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl05_rptPayoutSetDetail_ctl03_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $76.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl05_rptPayoutSetDetail_ctl03_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              5 of 5
+             </td>
+             <td>
+              $450.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl05_rptPayoutSetDetail_ctl04_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $950.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl05_rptPayoutSetDetail_ctl04_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+           </tbody>
+           <tfoot>
+            <tr>
+             <td colspan="4" style="text-align: left;">
+              Overall odds for 5 Spot 1 in 10.3, Bulls-eye 1 in 16
+              <br/>
+              <br/>
+              In reference to the 8 Spot, 9 Spot and 10 Spot tabs above, for the 8 of 8-spot, 9 of 9-spot and 10 of 10-spot plays the prize amounts are shared equally by the total number of winners. See "payouts" link above for full details.
+             </td>
+            </tr>
+           </tfoot>
+          </table>
+          <table class="draw_games hotspot" id="7SpotPayouts">
+           <tbody class="light-border">
+            <tr class="blue even">
+             <td>
+              1 of 4
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl06_rptPayoutSetDetail_ctl00_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $4.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl06_rptPayoutSetDetail_ctl00_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              2 of 4
+             </td>
+             <td>
+              $1.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl06_rptPayoutSetDetail_ctl01_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $11.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl06_rptPayoutSetDetail_ctl01_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              3 of 4
+             </td>
+             <td>
+              $5.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl06_rptPayoutSetDetail_ctl02_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $35.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl06_rptPayoutSetDetail_ctl02_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              4 of 4
+             </td>
+             <td>
+              $75.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl06_rptPayoutSetDetail_ctl03_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $275.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl06_rptPayoutSetDetail_ctl03_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+           </tbody>
+           <tfoot>
+            <tr>
+             <td colspan="4" style="text-align: left;">
+              Overall odds for 4 Spot 1 in 3.9, Bulls-eye 1 in 20
+              <br/>
+              <br/>
+              In reference to the 8 Spot, 9 Spot and 10 Spot tabs above, for the 8 of 8-spot, 9 of 9-spot and 10 of 10-spot plays the prize amounts are shared equally by the total number of winners. See "payouts" link above for full details.
+             </td>
+            </tr>
+           </tfoot>
+          </table>
+          <table class="draw_games hotspot" id="8SpotPayouts">
+           <tbody class="light-border">
+            <tr class="blue even">
+             <td>
+              1 of 3
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl07_rptPayoutSetDetail_ctl00_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $6.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl07_rptPayoutSetDetail_ctl00_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              2 of 3
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl07_rptPayoutSetDetail_ctl01_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $17.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl07_rptPayoutSetDetail_ctl01_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="blue even">
+             <td>
+              3 of 3
+             </td>
+             <td>
+              $26.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl07_rptPayoutSetDetail_ctl02_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $151.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl07_rptPayoutSetDetail_ctl02_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+           </tbody>
+           <tfoot>
+            <tr>
+             <td colspan="4" style="text-align: left;">
+              Overall odds for 3 Spot 1 in 6.6, Bulls-eye 1 in 26.7
+              <br/>
+              <br/>
+              In reference to the 8 Spot, 9 Spot and 10 Spot tabs above, for the 8 of 8-spot, 9 of 9-spot and 10 of 10-spot plays the prize amounts are shared equally by the total number of winners. See "payouts" link above for full details.
+             </td>
+            </tr>
+           </tfoot>
+          </table>
+          <table class="draw_games hotspot" id="9SpotPayouts">
+           <tbody class="light-border">
+            <tr class="blue even">
+             <td>
+              1 of 2
+             </td>
+             <td>
+              -
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl08_rptPayoutSetDetail_ctl00_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $12.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl08_rptPayoutSetDetail_ctl00_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr class="odd">
+             <td>
+              2 of 2
+             </td>
+             <td>
+              $9.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl08_rptPayoutSetDetail_ctl01_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $64.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl08_rptPayoutSetDetail_ctl01_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+           </tbody>
+           <tfoot>
+            <tr>
+             <td colspan="4" style="text-align: left;">
+              Overall odds for 2 Spot 1 in 16.6, Bulls-eye 1 in 40
+              <br/>
+              <br/>
+              In reference to the 8 Spot, 9 Spot and 10 Spot tabs above, for the 8 of 8-spot, 9 of 9-spot and 10 of 10-spot plays the prize amounts are shared equally by the total number of winners. See "payouts" link above for full details.
+             </td>
+            </tr>
+           </tfoot>
+          </table>
+          <table class="draw_games hotspot" id="10SpotPayouts">
+           <tbody class="light-border">
+            <tr class="blue even">
+             <td>
+              1 of 1
+             </td>
+             <td>
+              $2.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl09_rptPayoutSetDetail_ctl00_lblHotSpotWinners">
+              </span>
+             </td>
+             <td>
+              $46.00
+              <span class="hotspot-payout-winners hotspot-muted-text" id="objBody_content_0_pagecontent_0_ctlHotSpotPayouts_rptPayoutSets_ctl09_rptPayoutSetDetail_ctl00_lblBullseyeWinners">
+              </span>
+             </td>
+             <td>
+             </td>
+            </tr>
+           </tbody>
+           <tfoot>
+            <tr>
+             <td colspan="4" style="text-align: left;">
+              Overall odds for 1 Spot 1 in 4, Bulls-eye 1 in 80
+              <br/>
+              <br/>
+              In reference to the 8 Spot, 9 Spot and 10 Spot tabs above, for the 8 of 8-spot, 9 of 9-spot and 10 of 10-spot plays the prize amounts are shared equally by the total number of winners. See "payouts" link above for full details.
+             </td>
+            </tr>
+           </tfoot>
+          </table>
+         </div>
+        </div>
+       </div>
+      </div>
+      <script type="text/javascript">
+       require(["pages/landing_page"]);
+      </script>
+      <div class="{'reloadOnActivate':true}" id="winning_number_dialog_target">
+      </div>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <div class="wrapper clearfix">
+     <div id="footer-content">
+      <!-- I AM -->
+      <div class="column grid-3">
+       <ul class="footer-nav">
+        <li>
+         <a href="/media" id="ctl13_rptIm_ctl00_lnkURL">
+          Journalist
+         </a>
+        </li>
+        <li>
+         <a href="/about-us/careers" id="ctl13_rptIm_ctl01_lnkURL">
+          Job Seeker
+         </a>
+        </li>
+        <li>
+         <a href="/vendors" id="ctl13_rptIm_ctl02_lnkURL">
+          Vendor
+         </a>
+        </li>
+       </ul>
+      </div>
+      <!-- HELP ME -->
+      <div class="column grid-3">
+       <ul class="footer-nav">
+        <li>
+         <a href="/contact-us" id="ctl13_rptHelpMe_ctl00_lnkURL">
+          Contact the Lottery
+         </a>
+        </li>
+        <li>
+         <a href="https://static.www.calottery.com/~/media/Footer_Pages/aCSL%201367%20Language%20Access%20Complaint-update.pdf" id="ctl13_rptHelpMe_ctl01_lnkURL" target="_blank">
+          Language Access Complaint
+         </a>
+        </li>
+        <li>
+         <a href="/accessibility" id="ctl13_rptHelpMe_ctl02_lnkURL">
+          Website Accessibility
+         </a>
+        </li>
+       </ul>
+      </div>
+      <!-- SHOW ME -->
+      <div class="column grid-3 center">
+       <ul class="clearfix" id="footer-badges">
+        <li class="facebook">
+         <a href="http://www.facebook.com/calottery" target="_blank" title="facebook for CA Lottery">
+          CA Lottery on Facebook
+         </a>
+        </li>
+        <li class="twitter">
+         <a href="http://twitter.com/calottery" target="_blank" title="twitter for CA Lottery">
+          CA Lottery on Twitter
+         </a>
+        </li>
+        <li class="youtube">
+         <a href="http://www.youtube.com/user/CaliforniaLottery" target="_blank" title="Youtube for CA Lottery">
+          CA Lottery on YouTube
+         </a>
+        </li>
+        <li class="instagram">
+         <a href="http://instagram.com/calottery" target="_blank" title="Instagram for CA Lottery">
+          CA Lottery on Instagram
+         </a>
+        </li>
+       </ul>
+       <p>
+        <a href="~/link.aspx?_id=1FA772FEE9D14B07B85E91803FA15C7F&amp;_z=z">
+         Sign up for Jackpot alerts
+        </a>
+       </p>
+       <div>
+        <a href="https://itunes.apple.com/us/app/california-lottery-official/id874978299?mt=8" target="_blank">
+         <img alt="Get the iOS App" height="32" src="https://static.www.calottery.com/~/media/mobile/AppleStore.png?w=106&amp;h=32&amp;as=1" style="float: left" width="106"/>
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=gov.ca.lot.caLotteryApp" target="_blank">
+         <img alt="Get the Android App" height="32" src="https://static.www.calottery.com/~/media/mobile/GoogleStore.png?w=106&amp;h=32&amp;as=1" style="float: right" width="106"/>
+        </a>
+       </div>
+       <p>
+        Download our App now
+       </p>
+      </div>
+      <!-- CONNECT WITH US -->
+      <div class="column grid-3 left">
+       <!--  <p>
+                   <a href="">
+                        <img id="ctl13_WLALogo_Image1" src="" style="border-width:0px;" />
+                    </a> </p>-->
+       <p>
+       </p>
+       <a href="http://registertovote.ca.gov/" target="_blank">
+        <img alt="Register to Vote" border="0" height="35" src="https://static.www.calottery.com/~/media/06B2EE7AB75A4FFC84644F42FC10DC99.jpg?w=83&amp;h=35&amp;as=1" width="83"/>
+       </a>
+       <a href="http://saveourwater.com/" target="_blank">
+        <img alt="Save Our Water" border="0" height="35" src="https://static.www.calottery.com/~/media/D9384AD5687948D98991702CDDEC5BC5.jpg?h=35&amp;w=80&amp;as=1" width="80"/>
+       </a>
+       <p>
+        <img alt="" height="58" src="https://static.www.calottery.com/~/media/EFB48DD346E34C9FBEBCC0FA8F5093B0.png?w=220&amp;h=58&amp;as=1" width="220"/>
+       </p>
+      </div>
+      <div class="row" id="footer-notices">
+       <a href="/" id="footer-logo" style="background: url('https://static.www.calottery.com/~/media/HomePage/logo 175x84 with trademark.png') ">
+        CA Lottery Home
+       </a>
+       <p>
+        <a href="/terms-of-service">
+         Terms of Service
+        </a>
+        |
+        <a href="/privacy-policy">
+         Privacy Policy
+        </a>
+        |
+        <a href="/site-map">
+         Site Map
+        </a>
+        |
+        <a href="/contact-us/contact-us-faqs">
+         FAQs
+        </a>
+        <a class="play-responsibly" href="http://www.californialottery.com/Responsible%20Gaming">
+         <img alt="Play Responsibly.  18 and over. " border="0" height="51" src="https://static.www.calottery.com/~/media/7986DCA7A3004924ABDC3C6C05BEBAC3.png?w=100&amp;h=51&amp;as=1" title="Play Responsibly" width="100"/>
+        </a>
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="page">
+     <p id="footer-links">
+      <span>
+       ©2019 California State Lottery
+      </span>
+      |
+      <a href="http://gov.ca.gov/" target="_blank">
+       Governor Gavin Newsom
+      </a>
+      |
+      <a href="http://www.ca.gov/" target="_blank">
+       State of California
+      </a>
+      |
+      <a href="http://www.problemgambling.ca.gov/" target="_blank">
+       Problem Gambling Treatment
+      </a>
+     </p>
+    </div>
+   </footer>
+   <input id="hLOCAL_ADDR" name="hLOCAL_ADDR" type="hidden" value="10.1.1.17"/>
+   <div class="lightbox" id="session_timeout" title="Are You Still There?">
+    <p>
+     Your session has timed out due to inactivity. This helps to ensure that your information remains safe.
+    </p>
+    <p>
+     If you want to submit codes into a 2nd Chance draw, you’ll need to sign in again.
+    </p>
+    <p class="confirmation">
+     <a class="button-blue close" href="#">
+      <span>
+       <span>
+        OK
+       </span>
+      </span>
+     </a>
+    </p>
+   </div>
+   <div id="upRequestVerificationEmail">
+    <div id="pnlRequestVerificationEmail">
+     <input id="verfEmailUpdate" name="verfEmailUpdate" style="visibility: hidden;" type="submit" value="Verify Email"/>
+     <div class="lightbox" id="verfEmail" title="NEW VERIFICATION EMAIL SENT">
+      <p>
+       New verification email has been requested to be sent to
+      </p>
+      <p class="confirmation">
+       <button class="button-blue close">
+        <span>
+         <span>
+          Close
+         </span>
+        </span>
+       </button>
+      </p>
+     </div>
+    </div>
+   </div>
+   <input id="ChromeCutOffVersion" name="ChromeCutOffVersion" type="hidden" value="18"/>
+   <input id="FirefoxCutOffVersion" name="FirefoxCutOffVersion" type="hidden" value="5"/>
+   <input id="SafariCutOffVersion" name="SafariCutOffVersion" type="hidden" value="5"/>
+   <input id="IECutOffVersion" name="IECutOffVersion" type="hidden" value="8"/>
+   <div class="lightbox browser-modal" title="IMPROVE YOUR EXPERIENCE">
+    <h1>
+     Time for an update!
+    </h1>
+    <p>
+     The California Lottery wants you to have the very best possible experience at calottery.com.
+    </p>
+    <p>
+     You may want to update your browser to the most current version to insure that you can enjoy all the features on this site.
+    </p>
+    <div class="browser-single">
+     <p>
+      You are currently using
+     </p>
+     <div class="ieonly" style="display:none;">
+      <p class="version">
+       <img alt="Download Internet Explorer" height="110" src="https://static.www.calottery.com/~/media/Browser logos/browser-ie.png" width="110"/>
+       Using Internet Explorer
+       <span class="currversion" id="ieversionnumber">
+       </span>
+      </p>
+     </div>
+     <div class="ffonly" style="display:none;">
+      <p class="version">
+       <img alt="Download Firefox Browser" height="110" src="https://static.www.calottery.com/~/media/Browser logos/browser-firefox.png" width="110"/>
+       Using Firefox
+       <span class="currversion" id="ffversionnumber">
+       </span>
+      </p>
+     </div>
+     <div class="chromeonly" style="display:none;">
+      <p class="version">
+       <img alt="Download Chrome Browser" height="110" src="https://static.www.calottery.com/~/media/Browser logos/browser-chrome.png" width="110"/>
+       Using Chrome
+       <span class="currversion" id="chromeversionnumber">
+       </span>
+      </p>
+     </div>
+     <div class="safarionly" style="display:none;">
+      <p class="version">
+       <img alt="Download Safari Browser" height="110" src="https://static.www.calottery.com/~/media/Browser logos/browser-safari.png" width="110"/>
+       Using Safari
+       <span class="currversion" id="safariversionnumber">
+       </span>
+      </p>
+     </div>
+    </div>
+    <div>
+     <div class="ieonly" style="display:none;">
+      <p>
+       There is a newer version of Internet Explorer.
+       <a class="button-orange" href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">
+        <span>
+         <span>
+          Update Now
+         </span>
+        </span>
+       </a>
+      </p>
+     </div>
+     <div class="ffonly" style="display:none;">
+      <p>
+       There is a newer version of Firefox.
+       <a class="button-orange" href="https://support.mozilla.org/en-US/kb/update-firefox-latest-version" target="_blank">
+        <span>
+         <span>
+          Update Now
+         </span>
+        </span>
+       </a>
+      </p>
+     </div>
+     <div class="chromeonly" style="display:none;">
+      <p>
+       There is a newer version of Chrome.
+       <a class="button-orange" href="https://www.google.com/intl/en/chrome/browser/" target="_blank">
+        <span>
+         <span>
+          Update Now
+         </span>
+        </span>
+       </a>
+      </p>
+     </div>
+     <div class="safarionly" style="display:none;">
+      <p>
+       There is a newer version of Safari.
+       <a class="button-orange" href="http://www.apple.com/support/mac-apps/safari/" target="_blank">
+        <span>
+         <span>
+          Update Now
+         </span>
+        </span>
+       </a>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="lightbox browser-multiple-modal" title="IMPROVE YOUR EXPERIENCE">
+    <h1>
+     We're sorry.  We don't support your browser!
+    </h1>
+    <p>
+     The California Lottery wants you to have the very best possible experience at calottery.com. We suggest you use one of the supported browsers listed below to enjoy all the features on this site.
+    </p>
+    <p>
+     If you choose to download a new internet browser, please select one of the following browsers to download.
+    </p>
+    <div class="browser-multiple">
+     <ul class="clearfix">
+      <li>
+       <a class="button-orange" href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">
+        <img alt="Download Internet Explorer" height="110" src="https://static.www.calottery.com/~/media/Browser logos/browser-ie.png" width="110"/>
+        Upgrade Internet Explorer
+       </a>
+      </li>
+      <li>
+       <a class="button-orange" href="https://support.mozilla.org/en-US/kb/update-firefox-latest-version" target="_blank">
+        <img alt="Download Firefox Browser" height="110" src="https://static.www.calottery.com/~/media/Browser logos/browser-firefox.png" width="110"/>
+        Upgrade Mozilla Firefox
+       </a>
+      </li>
+      <li>
+       <a class="button-orange" href="https://www.google.com/intl/en/chrome/browser/" target="_blank">
+        <img alt="Download Chrome Browser" height="110" src="https://static.www.calottery.com/~/media/Browser logos/browser-chrome.png" width="110"/>
+        Upgrade Google Chrome
+       </a>
+      </li>
+      <li>
+       <a class="button-orange" href="http://www.apple.com/support/mac-apps/safari/" target="_blank">
+        <img alt="Download Safari Browser" height="110" src="https://static.www.calottery.com/~/media/Browser logos/browser-safari.png" width="110"/>
+        Upgrade Safari
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="lightbox browser-modal" id="MaintenanceMessageModal" title="TECHNICAL ADVISORY">
+    <h1>
+     SCHEDULED MAINTENANCE!
+    </h1>
+    <p align="center">
+     <span style='FONT-SIZE: 16pt; FONT-FAMILY: "Arial Narrow",sans-serif; COLOR: #ff0000; LINE-HEIGHT: 107%; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: "Times New Roman"; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>
+      <strong>
+       On May 28th, between 2:00 a.m. and 6:30 a.m., this site will be unavailable due to scheduled maintenance.
+       <span style="mso-spacerun: yes">
+       </span>
+       We apologize for the inconvenience.
+      </strong>
+     </span>
+    </p>
+   </div>
+   <script type="text/javascript">
+    //<![CDATA[
+Sys.Application.initialize();
+//]]>
+   </script>
+  </form>
+  <script type="text/javascript">
+   Sys.Browser.WebKit = {};
+        if (navigator.userAgent.indexOf('WebKit/') > -1) {
+            Sys.Browser.agent = Sys.Browser.WebKit;
+            Sys.Browser.version = parseFloat(navigator.userAgent.match(/WebKit\/(\d+(\.\d+)?)/)[1]);
+            Sys.Browser.name = 'WebKit';
+        }
+  </script>
+  <script type="text/javascript">
+   var CALOTTERY = {
+            config: {
+                // Minimum duration in milliseconds between current draw requests.
+                currentDrawMinimumWaitInterval: 10000,
+                // Duration in milliseconds to try fetching draw results again after an error. 
+                currentDrawRetryInterval: 5000 ,
+                animation: {
+                    // Duration of the initial fade-in of the grid of hotspots in milliseconds.
+                    initialFadeInDuration: 1000 ,
+                    // Duration the loading message is visible post-fade-in and pre-fade-out.
+                    loadingMessageShowDuration: 1500 ,
+                    // Duration used when the loading message is either faded in or out.
+                    loadingMessageFadeDuration: 250 ,
+                    // Duration of the animation of each winning spot in milliseconds.
+                    // If this is 0, winning spots will be displayed on the initial fade in.
+                    spotShowInterval: 0 
+                },
+                api: {
+                    currentDraw: "https://scalecalservice.calottery.com/api/v1.5/drawgames/22?drawscount=1" // Current draw results endpoint
+                }
+            }
+        };
+
+        require(["order!jquery","order!jqueryui","order!jqueryqtip","order!calottery.dialog","order!modules/global", "order!/build/hotspot/hotspot.bundle.js","modules/calottery.browserDetect"]);
+
+        require(['jquery'], function($){
+            if(navigator.userAgent.match(/Android/i)) {
+                $('body').addClass('android');
+            } else if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/iPad/i)) {
+                $('html,body').addClass('ios');
+            }
+        });
+
+        function endRequestHandler(sender, args) {
+            var $select = jQuery(".game-bar-pick");
+
+            if ($select.length > 0) {
+                $select.bind('fixGameBarEvent', function (e) {
+                    if (jQuery('.ui-selectmenu-status').length <= 0) {
+                        try {
+                            $select.selectmenu({ style: 'dropdown' });
+                        } catch (e) { }
+                    }
+                });
+
+                $select.trigger('fixGameBarEvent');
+            }
+        }
+        window.timeOut = 0;
+        window.redir = "/sign-in?redir={0}&timeout=true";
+        window.reqAuth = "False".toLowerCase();
+        /* //siteurl.com/sign-in?redir=/path/to/page&timeout=true */
+        window.timeOutScr = function () {
+            if(window.reqAuth == 'true') {
+                var loc = window.location.host;
+                var newLoc = window.location.protocol + '//' + loc + '/sign-in' + redir;
+                window.location = newLoc;
+            } else {
+                if (window.location.search.indexOf('timeout') <0) {
+                    window.reloadLoc = document.location.pathname + addUrlParam(document.location.search, 'timeout', 'true');
+                    window.location = window.reloadLoc;
+                } else {
+                    window.location.reload();
+                }
+            }
+        }
+        if (window.timeOut != 0) {
+            setTimeout(window.timeOutScr,window.timeOut);
+        }
+
+        try {
+            //if(typeof Sys.WebForms == "undefined")  throw new Error('Sys.WebForms is undefined');
+            Sys.WebForms.PageRequestManager.getInstance().add_endRequest(endRequestHandler);
+        } catch(e){}
+
+        /**
+        * Add a URL parameter (or changing it if it already exists)
+        * @param {search} string  this is typically document.location.search
+        * @param {key}    string  the key to set
+        * @param {val}    string  value 
+        */
+        var addUrlParam = function(search, key, val){
+            var newParam = key + '=' + val,
+                params = '?' + newParam;
+
+            // If the "search" string exists, then build params from it
+            if (search) {
+                // Try to replace an existance instance
+                params = search.replace(new RegExp('[\?&]' + key + '[^&]*'), '$1' + newParam);
+
+                // If nothing was replaced, then add the new param to the end
+                if (params === search) {
+                    params += '&' + newParam;
+                }
+            }
+
+            return params;
+        };
+  </script>
+  <script type="text/javascript">
+   var _gaq = [["_setAccount", "UA-576767-1"], ["_setDomainName", "none"], ["_setAllowLinker", true], ["_trackPageview"]];
+        (function (d, t) {
+            var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.async = 1;
+            g.src = ("https:" == location.protocol ? "//ssl" : "//www") + ".google-analytics.com/ga.js";
+            s.parentNode.insertBefore(g, s)
+        } (document, "script"));
+  </script>
+ </body>
+</html>
