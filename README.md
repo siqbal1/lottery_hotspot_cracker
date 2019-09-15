@@ -1,1 +1,3 @@
 # lottery_hotspot_cracker
+
+Program to scrape data off the lottery website in order to get statistical information on the winning numbers of each draw. The program compares the winning numbers of each draw with previous winning and losing numbers in order to find the percent composition that makes up the current draw numbers. Currently working on using the samples and data collected to be able to predict some of the winning numbers for the next draw, based on information from previous draws. Taking advantage of the fact that hotspot plays are selected using pseudo random generators, I hope to use the folleys of pseudo randomness to accurately predict future numbers in order to maximize profit potential.
